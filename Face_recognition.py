@@ -7,7 +7,7 @@ cascadePath = "haarcascade_frontalface_default.xml"
 faceCascade = cv2.CascadeClassifier(cascadePath);
 font = cv2.FONT_HERSHEY_TRIPLEX
 id = 0
-names = [0, 1, 2, 3, 'Z', 'W'] 
+names = [0, 1, 2, 3, 4, 5] 
 cam = cv2.VideoCapture(0)
 cam.set(3, 640) # set video widht
 cam.set(4, 480) # set video height
